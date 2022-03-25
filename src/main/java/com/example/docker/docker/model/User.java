@@ -1,20 +1,20 @@
 package com.example.docker.docker.model;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
-import javax.persistence.*;
 
 /**
  * Created by DIPU on 12/6/21
  */
 
 @Data
-@Entity
-@Table(name = "user")
+@AllArgsConstructor
+@NoArgsConstructor
 public class User {
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+
     private Long id;
     private String name;
     private String address;
