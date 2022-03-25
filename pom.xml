@@ -69,6 +69,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
+		<finalName>github-action-docker-demo</finalName>
 	</build>
 
 </project>
